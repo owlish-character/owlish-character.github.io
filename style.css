@@ -93,20 +93,86 @@ html {
 
   #about
   {
-    background-image: url(https://images.unsplash.com/photo-1461958508236-9a742665a0d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-image: url(https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1102&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #d3c7bb;
   }
+  .about
+  {
+    color: #f8dec4;
+    padding-left: 20px;
+    padding-top: 25px;
+    text-align: left;
+    font-size: x-large;
+  }
+
+  .about2
+  {
+    color: #10410e;
+    padding-right: 20px;
+    padding-top: 130px;
+    text-align: right;
+    font-size: x-large;
+  }
 
   #works
   {
-    background-image: url(https://images.unsplash.com/photo-1560092057-552a70533807?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+    background-image: url(https://images.unsplash.com/photo-1461958508236-9a742665a0d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
+  table {
+    font-size: 17px;
+    border-radius: 20px;
+    border-spacing: 0;
+    text-align: center;
+    object-position: center;
+    left: 10px;
+    right: 30px;
+    border: 1 px solid black;
+    }
+    th {
+    background: transparent;
+    color: #d6d0cc;
+    text-shadow: 0 1px 1px #0c0b0b;
+    padding: 13px 12px;
+    width: 10px;
+    }
+    th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    }
+    th:first-child, td:first-child {
+    text-align: center;
+    }
+    th:first-child {
+    border-top-left-radius: 20px;
+    border-left-color: #d6d0cc;
+    }
+    th:last-child {
+    border-top-right-radius: 20px;
+    border-right: none;
+    }
+    td {
+    padding: 10px 20px;
+    background: #d6d0cc;
+    color: rgb(99, 56, 20);
+    }
+    tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+    }
+    tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+    border-color: black;
+    border-left-color: black;
+    }
+    tr td:last-child {
+    border-right-color: #814c28;
+    }
 
   #contacts
   {
